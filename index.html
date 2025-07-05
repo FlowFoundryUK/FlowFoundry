@@ -1,224 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FlowFoundry: Strategy In Motion – Prompted By You. Discover powerful prompt tools and systems for modern founders." />
   <title>FlowFoundry</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
   <style>
     body {
+      font-family: sans-serif;
       margin: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      background-color: #fdfdfd;
-      color: #111;
+      padding: 0;
+      background-color: #fff;
+      color: #222;
     }
-    header, section, footer {
-      padding: 3rem 1.5rem;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    .hero {
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 2.8rem;
-      line-height: 1.2;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin: 1rem 0 2rem;
-    }
-    .cta-button {
-      background-color: #111;
+    header {
+      background: linear-gradient(120deg, #4e54c8, #8f94fb);
       color: #fff;
-      padding: 0.9rem 1.5rem;
-      border: none;
-      font-size: 1rem;
-      cursor: pointer;
-      border-radius: 0.4rem;
-      transition: background 0.3s ease;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .cta-button:hover {
-      background-color: #333;
-    }
-    .playbook-section {
-      padding: 40px 20px 60px;
-      background-color: #f9fafb;
-      border-top: 1px solid #e5e7eb;
-      max-width: 800px;
-      margin: 2rem auto 0;
+      padding: 80px 20px;
       text-align: center;
     }
-    .playbook-section h2 {
-      font-size: 2.25rem;
-      font-weight: 700;
-      margin-bottom: 0.5em;
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.3em;
     }
-    .playbook-section h3 {
-      font-size: 1.5rem;
-      font-weight: 500;
-      color: #4b5563;
-      margin-bottom: 1.25em;
-    }
-    .playbook-section blockquote {
-      font-style: italic;
-      color: #6b7280;
-      margin-bottom: 2em;
-    }
-    .playbook-section p {
-      font-size: 1.1rem;
-      color: #374151;
-      line-height: 1.6;
+    header p {
+      font-size: 1.2em;
       margin-bottom: 1.5em;
     }
-    .playbook-section ul {
-      list-style: none;
-      padding: 0;
-      margin: 2em 0;
-      font-size: 1.05rem;
-      color: #374151;
-      text-align: left;
-      display: inline-block;
-      text-align: left;
-      max-width: 400px;
-    }
-    .playbook-section ul li {
-      margin-bottom: 0.75em;
-    }
-    .playbook-section a.cta-button {
-      background-color: #111827;
-      color: #ffffff;
-      font-weight: 600;
-      padding: 14px 28px;
-      border-radius: 8px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 1em;
-    }
-    .pitch {
-      background-color: #f4f4f4;
-      border-left: 4px solid #222;
-      padding: 2rem;
-      margin-top: 3rem;
-      font-size: 1.1rem;
-    }
-    .products {
-      display: grid;
-      gap: 2rem;
-      margin-top: 3rem;
-    }
-    .product {
+    header .cta {
       background: #fff;
-      border: 1px solid #ddd;
+      color: #4e54c8;
+      padding: 0.75em 1.5em;
+      font-weight: bold;
+      text-decoration: none;
       border-radius: 8px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: 0.3s;
     }
-    .product h3 {
-      margin-top: 0;
+    header .cta:hover {
+      background: #eee;
     }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
-      margin-top: 4rem;
-      padding-bottom: 2rem;
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    .section-image {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 12px;
+    }
+    .reignite {
+      background-color: #f9f9f9;
+      padding: 60px 20px;
+    }
+    .highlight-line {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-top: 1em;
     }
   </style>
 </head>
+
 <body>
-  <header class="hero">
-  
-    <h1>Finally—strategy that doesn’t collect dust.<br />
-    It's fast. It's sharp and... it talks back.</h1>
+  <header data-aos="fade-down">
+    <h1>Strategy In Motion – Prompted By You.</h1>
     <p>Your unfair advantage is waiting. Built for founders, makers, and doers who need more than generic prompts.</p>
-    <a href="https://your-gumroad-link.com" class="cta-button">Steal the GPT-3.5 Playbook – Free</a>
-      <!-- BRAND BANNER PLACEHOLDER -->
-    <!-- Insert banner image here. Optimal size: 1200px wide by 300px tall -->
-
-    <img src="FFwebbanner.png" alt="FlowFoundry Brand Banner" width="1200" height="300" style="max-width: 100%; height: auto; margin-top: 2rem;" />
-
-
-    <!-- GPT-3.5 Playbook Section moved here -->
-    <section class="playbook-section" aria-label="GPT 3.5 Playbook description">
-      <h2>🎯 GPT-3.5 Playbook</h2>
-      <h3>Big Strategy. Tiny Budget. One Button Away.</h3>
-
-      <blockquote>“Why does a microwave have more buttons than you’ll ever use… but ChatGPT, the most powerful tool in the world, starts with a blank page?”</blockquote>
-
-      <p>The GPT-3.5 Playbook flips that script. It’s not just prompts. It’s a cheat code for thinking smarter, acting faster, and looking like a genius with zero budget.</p>
-
-      <p><strong>Designed for clever people with cleverer goals—</strong> not sure where to start? This guide tells your AI <em>exactly</em> what to do, when to do it, and how to make you look damn good in the process.</p>
-
-      <ul>
-        <li>✅ <strong>Plug-and-play prompts</strong> so intuitive even your nan could launch a product</li>
-        <li>✅ <strong>Strategy-first structure</strong>—not just clever hacks, but real clarity</li>
-        <li>✅ <strong>Behavioural framing built-in</strong> so the AI sounds more like <em>you</em> than you do</li>
-      </ul>
-
-      <blockquote>“You don’t rise to the level of your strategy. You fall to the level of your prompts.”<br />
-      — Definitely not Aristotle, but we wish he’d said it.</blockquote>
-
-      <a href="https://your-gumroad-link.com" class="cta-button">👉 Get the Playbook Now</a>
-    </section>
+    <img src="FFwebbanner.png" alt="FlowFoundry Banner" style="max-width:1000px; width:100%; height:auto; margin-top:20px;">
+    <br /><br />
+    <a href="#playbook" class="cta">Grab the Free GPT-3.5 Playbook</a>
   </header>
 
-  <section class="pitch">
-    <p><strong>If you're tired of "meh" prompts and cookie-cutter strategy…</strong><br />
-    FlowFoundry was built for you. With brains, guts, and a little mischief.</p>
+  <section id="playbook" data-aos="fade-up">
+    <h2>The GPT-3.5 Playbook</h2>
+    <img src="FFGPTPlaybook.png" class="section-image" alt="GPT-3.5 Playbook">
+    <p><strong>Crafted with constraints. Designed to break them.</strong><br>
+      This isn't just a list of prompts. It's a working manual for turning GPT-3.5 into your own creative partner — and a profitable one.
+      Built inside the same limits you're working with. Not despite them. Because of them.
+      This thing is scrappy, smart, and strategic. Just like you.</p>
+    <a href="https://yourgumroadlink.com" class="cta">Download the Playbook</a>
   </section>
 
-  <div style="margin: 40px 0; text-align: center;">
-  <img 
-    src="FFGPTPlaybook.png" 
-    alt="GPT Playbook Graphic" 
-    style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px;" 
-  />
-</div>
-
-
-
-  
-  <section class="products">
-    <div class="product">
-      <h3>📘 GPT-3.5 Playbook</h3>
-      <p>Free, punchy, and wildly useful. This is your ultimate starter guide to prompt like a pro—even with the free version of ChatGPT.</p>
-      <a href="https://your-gumroad-link.com" class="cta-button">Grab It Now</a>
-    </div>
-<div style="margin: 40px 0; text-align: center;">
-  <img 
-    src="FFPrompt Library.png" 
-    alt="FF Prompt Library Graphic" 
-    style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px;" 
-  />
-</div>
-    
-    <div class="product">
-      <h3>🧠 Prompt Library</h3>
-      <p>Tools that talk back—because you told them exactly what you need. Modular, strategic, and steeped in behavioural psychology.</p>
-      <a href="https://your-gumroad-link.com" class="cta-button">Explore the Library</a>
-    </div>
-    
-<div style="margin: 40px 0; text-align: center;">
-  <img 
-    src="FFreignitestack.png" 
-    alt="FF Reignite Stack Graphic" 
-    style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px;" 
-  />
-</div>
-    
-    <div class="product">
-      <h3>🔥 The Reignite Stack</h3>
-      <p>Coming soon: A full-stack relaunch kit for businesses that need their spark back. Fast clarity, sharp positioning, and strategic action.</p>
-      <a href="#" class="cta-button" style="background-color: #bbb; cursor: not-allowed;">Launching Soon</a>
-    </div>
+  <section data-aos="fade-up">
+    <h2>Prompt Library</h2>
+    <img src="FFPrompt Library.png" class="section-image" alt="Prompt Library">
+    <p>Tools that talk back — because you told them exactly what you need. The Prompt Library is packed with high-performance prompt tools that adapt to your brand, tone, and strategy.</p>
+    <p><em>Every prompt has a purpose. Every line earns its keep.</em></p>
+    <a href="#prompt-library" class="cta">Explore the Library</a>
   </section>
 
-  <footer>
-    <p>&copy; 2025 FlowFoundry. All rights reserved. | Strategy in Motion – Prompted by You.</p>
-  </footer>
+  <section class="reignite" data-aos="fade-up">
+    <h2>The Reignite Stack</h2>
+    <img src="FFreignitestack.png" class="section-image" alt="Reignite Stack">
+    <p>
+      Dead traffic? Flat offers? Reignite is your comeback plan.<br>
+      It’s not a pivot. It’s a relaunch with teeth.<br>
+      The Reignite Stack combines behavioural strategy, marketing psychology, and a dash of punk rock logic.<br>
+      It doesn’t ask your audience to think — it makes them feel.<br>
+      And then it gets them to act.<br>
+    </p>
+    <p class="highlight-line">Because second chances deserve first-class strategy.</p>
+    <a href="#reignite" class="cta">Discover the Stack</a>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
 
 
