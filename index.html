@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FlowFoundry</title>
-  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       margin: 0;
@@ -37,9 +36,65 @@
       cursor: pointer;
       border-radius: 0.4rem;
       transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
     }
     .cta-button:hover {
       background-color: #333;
+    }
+    .playbook-section {
+      padding: 40px 20px 60px;
+      background-color: #f9fafb;
+      border-top: 1px solid #e5e7eb;
+      max-width: 800px;
+      margin: 2rem auto 0;
+      text-align: center;
+    }
+    .playbook-section h2 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+    }
+    .playbook-section h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #4b5563;
+      margin-bottom: 1.25em;
+    }
+    .playbook-section blockquote {
+      font-style: italic;
+      color: #6b7280;
+      margin-bottom: 2em;
+    }
+    .playbook-section p {
+      font-size: 1.1rem;
+      color: #374151;
+      line-height: 1.6;
+      margin-bottom: 1.5em;
+    }
+    .playbook-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 2em 0;
+      font-size: 1.05rem;
+      color: #374151;
+      text-align: left;
+      display: inline-block;
+      text-align: left;
+      max-width: 400px;
+    }
+    .playbook-section ul li {
+      margin-bottom: 0.75em;
+    }
+    .playbook-section a.cta-button {
+      background-color: #111827;
+      color: #ffffff;
+      font-weight: 600;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1em;
     }
     .pitch {
       background-color: #f4f4f4;
@@ -51,6 +106,7 @@
     .products {
       display: grid;
       gap: 2rem;
+      margin-top: 3rem;
     }
     .product {
       background: #fff;
@@ -66,6 +122,8 @@
       text-align: center;
       font-size: 0.9rem;
       color: #666;
+      margin-top: 4rem;
+      padding-bottom: 2rem;
     }
   </style>
 </head>
@@ -77,44 +135,35 @@
     It's fast. It's sharp. It talks back.</h1>
     <p>Your unfair advantage is waiting. Built for founders, makers, and doers who need more than generic prompts.</p>
     <a href="https://your-gumroad-link.com" class="cta-button">Steal the GPT-3.5 Playbook – Free</a>
+
+    <!-- GPT-3.5 Playbook Section moved here -->
+    <section class="playbook-section" aria-label="GPT 3.5 Playbook description">
+      <h2>🎯 GPT-3.5 Playbook</h2>
+      <h3>Big Strategy. Tiny Budget. One Button Away.</h3>
+
+      <blockquote>“Why does a microwave have more buttons than you’ll ever use… but ChatGPT, the most powerful tool in the world, starts with a blank page?”</blockquote>
+
+      <p>The GPT-3.5 Playbook flips that script. It’s not just prompts. It’s a cheat code for thinking smarter, acting faster, and looking like a genius with zero budget.</p>
+
+      <p><strong>Designed for clever people with cleverer goals—</strong> not sure where to start? This guide tells your AI <em>exactly</em> what to do, when to do it, and how to make you look damn good in the process.</p>
+
+      <ul>
+        <li>✅ <strong>Plug-and-play prompts</strong> so intuitive even your nan could launch a product</li>
+        <li>✅ <strong>Strategy-first structure</strong>—not just clever hacks, but real clarity</li>
+        <li>✅ <strong>Behavioural framing built-in</strong> so the AI sounds more like <em>you</em> than you do</li>
+      </ul>
+
+      <blockquote>“You don’t rise to the level of your strategy. You fall to the level of your prompts.”<br />
+      — Definitely not Aristotle, but we wish he’d said it.</blockquote>
+
+      <a href="https://your-gumroad-link.com" class="cta-button">👉 Get the Playbook Now</a>
+    </section>
   </header>
 
-  <!-- ========== GPT-3.5 Playbook Section ========== -->
-<section class="playbook-section" style="padding: 60px 20px; background-color: #f9fafb; border-top: 1px solid #e5e7eb;">
-  <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-    <h2 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5em;">🎯 GPT-3.5 Playbook</h2>
-    <h3 style="font-size: 1.5rem; font-weight: 500; color: #4b5563; margin-bottom: 1.25em;">
-      Big Strategy. Tiny Budget. One Button Away.
-    </h3>
-
-    <blockquote style="font-style: italic; color: #6b7280; margin-bottom: 2em;">
-      “Why does a microwave have more buttons than you’ll ever use… but ChatGPT, the most powerful tool in the world, starts with a blank page?”
-    </blockquote>
-
-    <p style="font-size: 1.1rem; color: #374151; line-height: 1.6; margin-bottom: 1.5em;">
-      The GPT-3.5 Playbook flips that script. It’s not just prompts. It’s a cheat code for thinking smarter, acting faster, and looking like a genius with zero budget.
-    </p>
-
-    <p style="font-size: 1.1rem; color: #374151; line-height: 1.6; margin-bottom: 1.5em;">
-      <strong>Designed for clever people with cleverer goals—</strong> not sure where to start? This guide tells your AI <em>exactly</em> what to do, when to do it, and how to make you look damn good in the process.
-    </p>
-
-    <ul style="list-style: none; padding: 0; margin: 2em 0; font-size: 1.05rem; color: #374151; text-align: left;">
-      <li style="margin-bottom: 0.75em;">✅ <strong>Plug-and-play prompts</strong> so intuitive even your nan could launch a product</li>
-      <li style="margin-bottom: 0.75em;">✅ <strong>Strategy-first structure</strong>—not just clever hacks, but real clarity</li>
-      <li style="margin-bottom: 0.75em;">✅ <strong>Behavioural framing built-in</strong> so the AI sounds more like <em>you</em> than you do</li>
-    </ul>
-
-    <blockquote style="font-style: italic; color: #6b7280; margin-bottom: 2em;">
-      “You don’t rise to the level of your strategy. You fall to the level of your prompts.”<br>
-      — Definitely not Aristotle, but we wish he’d said it.
-    </blockquote>
-
-    <a href="#" style="background-color: #111827; color: #ffffff; font-weight: 600; padding: 14px 28px; border-radius: 8px; text-decoration: none; display: inline-block;">
-      👉 Get the Playbook Now
-    </a>
-  </div>
-</section>
+  <section class="pitch">
+    <p><strong>If you're tired of "meh" prompts and cookie-cutter strategy…</strong><br />
+    FlowFoundry was built for you. With brains, guts, and a little mischief.</p>
+  </section>
 
   <section class="products">
     <div class="product">
@@ -134,17 +183,6 @@
       <p>Coming soon: A full-stack relaunch kit for businesses that need their spark back. Fast clarity, sharp positioning, and strategic action.</p>
       <a href="#" class="cta-button" style="background-color: #bbb; cursor: not-allowed;">Launching Soon</a>
     </div>
-  </div>
-</section>
-
-<!-- Optional: Add a comment for where to insert a brand banner later -->
-<!-- To add a banner image above this section, insert an <img> here. Optimal size: 1200px x 300px -->
-
-    <div class="product">
-      <h3>🔥 The Reignite Stack</h3>
-      <p>Coming soon: A full-stack relaunch kit for businesses that need their spark back. Fast clarity, sharp positioning, and strategic action.</p>
-      <a href="#" class="cta-button" style="background-color: #bbb; cursor: not-allowed;">Launching Soon</a>
-    </div>
   </section>
 
   <footer>
@@ -152,3 +190,5 @@
   </footer>
 </body>
 </html>
+
+
